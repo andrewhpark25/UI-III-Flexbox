@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,12 +59,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
-	margin: 0 auto;
-	width: 600px;
-	
+.container2 {
+	margin: 0% 32%;
 }
 
 header {
@@ -98,126 +91,96 @@ header nav a {
 
 header .logo {
 	display:flex;
-	float:right;
+    float:right;
 	position: relative;
 	bottom: 28px;
 }
 
-#started div {
-	width: 48%;
-	margin: 0 1%;
+#services {
+	margin-top: 30px;
 }
 
-#started .text h1 {
-	display: flex;
-	flex-direction:row;
-	padding:1%;
-	text-align:center;
-	width:50%;
-	font-size: 60px;
-	margin-top: 70px;
-	margin-right: 20px;
-	vertical-align: top;
-	
-
-	
+#services .text h1 {
+	font-size: 25px;
 }
 
-#started .text button {
 
-	   font-size: 17px;
-	   background-color: white;
-		vertical-align: top;
-		margin-top: 0;
-		margin-left: 50px;
-		padding: 1%;
-		border: 1px solid black;
-		width: 50%;
-		
+.services-header-img {
+	width: 100%;
+	height: auto;
 }
 
-#started img {
-	display: flex;
-	float: right;
-	margin-top: 0;
-	width:48%;
-	vertical-align: top;
-	position: relative;
-	top:-275px;
-
-}
-
-#content {
-
+#content2 {
 	border-top: 1px solid black;
 	margin-top: 386px;
 	padding-top: 0px;
 	position: relative;
 	top: -340px;
-}
-
-#content .top {
-	padding: 0 10px;
-	margin-top: 30px;
-	float:right;
-	margin-bottom: 30px;
-} 
-
-#content .top .box {
-	width: 250px;
-	flex-direction: row;
-	margin-right: 34px;
-	float:left;
-
-}
-
-#content .top .box :last-child{
-	margin-right:0;
-}
-
-#content .middle-img {
-	margin-top: 65px;
-}
-
-#content .bottom {
-	margin-top: 57px;
-	padding: 0 30px;
 	display:flex;
-	flex-direction:row;
-	float:right;
+flex-wrap: wrap;
+  margin-bottom:-300px;
+}
+
+#content2 .box {
+    width: 100%;
+    
+
+}
+
+#content2 > div {
+	flex: 0 50%;
+	/*demo*/
+	border: gray solid;
+	box-sizing:border-box;
+    margin: 1em 0;
+    padding: 1em;
+    background: #D8D4D3;
+  
 }
 
 
-#content .bottom .box {
-	display: flex;
-	flex-direction:row;
-	align-items: flex-start;
-	width: 250px;
-    margin-right: 34px;
-	float:left;
-	justify-content: center;
+button {
+    border: 1px solid black;
+  padding: 0.2em 2em;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 10px;
 }
 
-#content .bottom .box :last-child{
-	margin-right:0;
+#about {
+    border-top: 1px solid black;
+    display: flex;
 }
 
-address {
-	margin-top: 10px;
-	border-top: 1px solid black;
+.about {
+    margin-top: 30px;
+    padding:0 2em;
+
+}
+ul {
+    padding: 1em;
+}
+
+li {
+    margin: 0 0 10px 0;
+    list-style-type: square;
+}
+.services-info-img {
+    display: flex;
+	float: right;
+	margin-top: 30px;
+	width:48%;
+	vertical-align: top;
 	position: relative;
-	margin-bottom:0;
 
-}
-address p {
-	margin: 20px 0;
+  }
 
-}
-
-footer {
+  footer {
 	margin: 52px 0;
 	text-align: center;
 	font-size: 15px;
 }
 
 
+
+  
